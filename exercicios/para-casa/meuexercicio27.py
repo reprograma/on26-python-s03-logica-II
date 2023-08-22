@@ -35,12 +35,8 @@ elif kg_maca >= 5:
 
 valor_total = compra(preco_morango, preco_maca)
 
-if kg_morango > 8 or kg_maca > 8 or valor_total > 25:
+if (kg_morango + kg_maca) > 8 or valor_total > 25:
     preco_com_desconto = valor_total * 0.9
     print(f'O valor total da compra com desconto é R$: {preco_com_desconto:.2f}')
-elif (kg_morango + kg_maca) > 8:
-    preco_com_desconto = valor_total * 0.9
-    print(f'O valor total da compra com desconto é R$: {preco_com_desconto:.2f}')
-
 else:
     print(f'O valor total da compra é R$: {valor_total:.2f}, sem desconto')
