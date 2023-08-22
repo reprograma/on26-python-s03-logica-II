@@ -43,6 +43,7 @@ else:
     
     # condião para ganhafr o descontoelse:
     
+    
 if total_kg_morango_maca > 8 or total_compra > 25  :
         desconto = 0.9
         valor_total = valor_total * 0.9
