@@ -15,3 +15,5 @@ kg_macas = float(input('quantidade de maçãs (em Kg): '))
 
 valor_a_pagar = calcular_valor_compra(kg_morangos, kg_macas)
 print(f'valor a ser pago: R$ {valor_a_pagar:.2f}')
+
+# teste
