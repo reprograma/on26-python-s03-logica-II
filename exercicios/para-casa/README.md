@@ -2,15 +2,15 @@
 
 ---
 
-preco_menos_do_que_5kg = {
+preco_menos_do_que_5kg = 
     'Morango': 2.5,
     'Maçã': 1.8
-}
 
-preco_maior_do_que_5kg = {
+
+preco_maior_do_que_5kg = 
     'Morango': 2.2,
     'Maçã': 1.5
-}
+
 
 numero_de_kg_morango = float(input("Quantidade de morangos (em Kg): "))
 
