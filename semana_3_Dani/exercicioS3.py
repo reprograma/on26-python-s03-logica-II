@@ -30,7 +30,7 @@ def total_a_ser_pago_frutas(quantidade_de_morango, preco_morango, quantidade_de_
 
 
 total = total_a_ser_pago_frutas(quantidade_de_morango, preco_do_morango, quantidade_de_maca, preco_da_maca)
-if quantidade_de_frutas <= 8 and total <= 25:
+if quantidade_de_frutas <= 8 or total <= 25:
     print(f"O preço total da sua compra é de R$ {total:.2f}")   
 else:
     print(f"O preço total da sua compra é de R$ {total*0.9:.2f}")
