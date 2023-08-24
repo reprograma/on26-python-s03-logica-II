@@ -36,7 +36,7 @@ elif tipo_da_fruta == "1" and quantidade_da_fruta > 5:
 if tipo_da_fruta == "2" and quantidade_da_fruta < 5:
     preco_bruto_mac_menor5 = (quantidade_da_fruta * preco_maca_menorque5)
     preco_total_mac = preco_bruto_mac_menor5
-    print ("O valor da sua compra de " + format(str(quantidade_da_fruta) + " kilos de morangos será de R$ " + str(preco_total_mac)))    
+    print ("O valor da sua compra de " + format(str(quantidade_da_fruta) + " kilos de maçãs será de R$ " + str(preco_total_mac)))    
 
  #Se for mais que 5kg
 elif tipo_da_fruta == "2" and quantidade_da_fruta > 5:
@@ -50,4 +50,4 @@ elif tipo_da_fruta == "2" and quantidade_da_fruta > 5:
  # Se tem desconto por valor
     if preco_bruto_mac_maior5 >= 25:
         preco_total_mac = (preco_bruto_mac_maior5 * 0.9)
-    print ("O valor da sua compra de " + format(str(quantidade_da_fruta)) + " kilos de morangos será de R$ " + format(str(preco_total_mac)))
+    print ("O valor da sua compra de " + format(str(quantidade_da_fruta)) + " kilos de maçãs será de R$ " + format(str(preco_total_mac)))
