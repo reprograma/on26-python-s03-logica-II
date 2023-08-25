@@ -14,7 +14,7 @@ preco_morango2 = morango * 2.20
 preco_maca1 = maca * 1.80
 preco_maca2 = maca * 1.50
 
-print("qtd de maçãs: ", maca, "qtd de morangos: ", morango)
+print("qtd de maçã: ", maca, "qtd de morango: ", morango)
 
 if morango > 5:
     preco_correto_morango = preco_morango1
