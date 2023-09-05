@@ -1,5 +1,3 @@
-# ementa-python-analise-dados
-
 ## S03 - Condicionais, operadores lógicos, erros e exceções
 
 ### Material base: https://docs.google.com/presentation/d/1uTOZrmZHX4xVpqaOi1vkopLmpGPClHcYLR9iwcnYx6c/
